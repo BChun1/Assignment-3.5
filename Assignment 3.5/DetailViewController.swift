@@ -33,10 +33,10 @@ class DetailViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    var detailItem: NSDate? {
+    var detailItem: Musicians? {
         didSet {
             // Update the view.
-            configureView()
+            self.configureView()
         }
     }
 
